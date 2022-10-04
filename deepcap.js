@@ -1,5 +1,5 @@
 
-function readfileautomatically () {
+function LoadDoc() {
         var client = new XMLHttpRequest();
         client.open('GET', '/resources/states.txt');
         client.onreadystatechange = function()
