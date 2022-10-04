@@ -1,14 +1,13 @@
 
 function LoadDoc() {
         var client = new XMLHttpRequest();
-        client.open('GET', 'resources/states.txt');
+        client.open('GET', 'ajax.txt');
         client.onreadystatechange = function()
         {
             if( client.responseText != '' )
             {
                 var txt = client.responseText.split("\n");
-                let state = Math.floor(Math.random() * 1960) + 1;
-                let combo = (txt[state]);
+                let combo = (txt[1]);
                 document.getElementById("test").innerHTML = combo;
             }
         }
