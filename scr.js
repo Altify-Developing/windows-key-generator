@@ -684,7 +684,7 @@ function setvarcapture() {
   document.getElementById("wintotal").innerHTML = txt;
   function Proxies(value, index, array) {
     wname = randomString(5, '01234567890123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ');
-    txt += value + "<br>Leaked By discord.gg/alts - Computer Name: " + wname + " - Windows Version: Windows 10<br>"; 
+    txt += value + "<br>Leaked By discord.gg/BKu4HBcrp6 - Computer Name: " + wname + " - Windows Version: Windows 10<br>"; 
   };
   };
 function setvarcaptureoneline() {
@@ -1347,7 +1347,7 @@ function setvarcaptureoneline() {
   document.getElementById("wintotal").innerHTML = txt;
   function Proxies(value, index, array) {
     wname = randomString(5, '01234567890123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ');
-    txt += value + " | Leaked By discord.gg/alts - Computer Name: " + wname + " - Windows Version: Windows 10 | ";
+    txt += value + " | Leaked By discord.gg/BKu4HBcrp6 - Computer Name: " + wname + " - Windows Version: Windows 10 | ";
   };
   };
 function setvarnocapture() {
