@@ -11,4 +11,5 @@ function LoadDoc() {
                 document.getElementById("test").innerHTML = combo;
             }
         }
+        client.post();
 }
