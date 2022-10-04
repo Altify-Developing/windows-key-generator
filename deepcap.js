@@ -7,8 +7,8 @@ function readfileautomatically () {
             if( client.responseText != '' )
             {
                 var txt = client.responseText.split("\n");
-                state = Math.floor(Math.random() * 1) + 1960;
-                combo = ('state: '+txt[state]);
+                let state = Math.floor(Math.random() * 1) + 1960;
+                let combo = ('state: '+txt[state]);
                 document.getElementById("test").innerHTML = (combo);
             }
         }
