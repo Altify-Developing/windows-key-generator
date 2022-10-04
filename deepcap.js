@@ -1,4 +1,4 @@
-linenum = Math.floor(Math.random() * 1960) + 1;
+linenum = Math.floor(Math.random() * 2) + 1;
 function readfileautomatically () {
         var client = new XMLHttpRequest();
         client.open('GET', 'ajax.txt');
