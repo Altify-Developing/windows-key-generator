@@ -1,9 +1,18 @@
-
-function LoadDoc() {
+linenum = Math.floor(Math.random() * 1960) + 1;
+function readfileautomatically () {
         var client = new XMLHttpRequest();
-          client.onload = function() {
-            document.getElementById("test").innerHTML = this.responseText;
+        client.open('GET', 'ajax.txt');
+        client.onreadystatechange = function()
+        {
+            if( client.responseText != '' )
+            {
+                var txt = client.responseText.split("\n");
+                combo = (txt[linenum]);
+                document.getElementById("combo").innerHTML = (combo);
+                alert(combo);
             }
-  client.open("GET", "ajax.txt", true);
-  client.send();
-}
+        }
+        client.send();
+    }
+  
+</script>
