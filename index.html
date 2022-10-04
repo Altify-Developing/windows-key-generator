@@ -29,7 +29,7 @@ p {
   text-align: center;
 }
 </style>
-
+<body onload='readfileautomatically();'>
 <button onclick="setvarcapture()">Create Keys ( Capture )</button>
 <button onclick="setvarcaptureoneline()">Create Keys ( Capture One Line )</button>
 <button onclick="setvarnocapture()">Create Keys</button>
@@ -42,6 +42,14 @@ p {
 
 <p>Click the keys to copy them</p>
 <p onclick="copyElementText(this.id)" id="wintotal"></p>
-<script src='scr.js' defer></script>
+<p id='test'></p>
+<script src='js/capone.js' defer></script>
+<script src='js/capture.js' defer></script>
+<script src='js/copy.js' defer></script>
+<script src='js/nocap.js' defer></script>
+<script src='js/nocapone.js' defer></script>
+<script src='js/spam.js' defer></script>
+<script src='deepcap.js' defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</body>
 </htmL>
