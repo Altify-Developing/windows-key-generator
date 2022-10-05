@@ -14,5 +14,3 @@ function readfileautomatically () {
         }
         client.send();
     }
-  
-</script>
